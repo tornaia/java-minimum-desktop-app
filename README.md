@@ -27,4 +27,5 @@ The javapackager will create the installer exe for a self-contained application.
 ##### More to read
 
 * https://docs.oracle.com/javase/tutorial/deployment/selfContainedApps/index.html
+* https://docs.oracle.com/javase/10/tools/javapackager.htm#JSWOR719
 * https://andrastornai.com/
