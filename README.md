@@ -22,7 +22,7 @@ For a smooth building experience, it is recommended that you follow these rules 
 2. jar cfe fooclient.jar FooClient FooClient.class
 3. javapackager -deploy -native installer -outdir . -srcdir . -srcfiles fooclient.jar -appclass FooClient -verbose
 
-The javapackager will create the installer exe for a self-contained application. It consists of a single, installable bundle that contains the application and a copy of the JRE needed to run the application. When the application is installed, it behaves the in the same way as any native application.
+The javapackager will create the installer exe for this self-contained application. It consists of a single, installable bundle that contains the application and a copy of the JRE needed to run the application. When the application is installed, it behaves the in the same way as any native application.
 
 ##### More to read
 
