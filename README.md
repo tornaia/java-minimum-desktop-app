@@ -6,9 +6,11 @@ To demonstrate how easy is to build a desktop application with Java.
 
 * Windows x64
 * Oracle JDK 10.0.2 (http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
-* Maven 3.6.0 (https://maven.apache.org/download.cgi)
+* Oracle JDK 13-jpackage+36 (https://jdk.java.net/jpackage/)
+* Oracle JDK 14-jpackage+35 (https://jdk.java.net/jpackage/)
+* Maven 3.6.2 (https://maven.apache.org/download.cgi)
 * Inno Setup 5.6.1 (u) (http://www.jrsoftware.org/isdl.php)
-* IntelliJ IDEA Ultimate 2018.2.6 (https://www.jetbrains.com/idea/download/#section=windows)
+* IntelliJ IDEA Ultimate 2019.2.2 (https://www.jetbrains.com/idea/download/#section=windows)
 
 ##### Hints
 
@@ -18,9 +20,7 @@ For a smooth building experience, it is recommended that you follow these rules 
 
 ##### How to build
 
-1. javac FooClient.java
-2. jar cfe fooclient.jar FooClient FooClient.class
-3. javapackager -deploy -native installer -outdir . -srcdir . -srcfiles fooclient.jar -appclass FooClient -verbose
+See .bat files.
 
 The javapackager will create the installer exe for this self-contained application. It consists of a single, installable bundle that contains the application and a copy of the JRE needed to run the application. When the application is installed, it behaves the in the same way as any native application.
 
