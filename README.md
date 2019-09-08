@@ -4,13 +4,11 @@ To demonstrate how easy is to build a desktop application with Java.
 
 ##### Prerequisites for development
 
-* Windows x64
+* Windows 10 x64/
 * Oracle JDK 10.0.2 (http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
 * Oracle JDK 13-jpackage+36 (https://jdk.java.net/jpackage/)
 * Oracle JDK 14-jpackage+35 (https://jdk.java.net/jpackage/)
-* Maven 3.6.2 (https://maven.apache.org/download.cgi)
 * Inno Setup 5.6.1 (u) (http://www.jrsoftware.org/isdl.php)
-* IntelliJ IDEA Ultimate 2019.2.2 (https://www.jetbrains.com/idea/download/#section=windows)
 
 ##### Hints
 
