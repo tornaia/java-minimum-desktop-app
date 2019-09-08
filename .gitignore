@@ -2,3 +2,6 @@
 *.jar
 *.iml
 *.exe
+*.msi
+*.log
+iamhomer/
