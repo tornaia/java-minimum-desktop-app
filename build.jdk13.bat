@@ -3,4 +3,4 @@ del *.class,*.jar,*.exe
 
 "%JAVA_HOME%\bin\javac" FooClient.java
 "%JAVA_HOME%\bin\jar" cfe fooclient.jar FooClient FooClient.class
-"%JAVA_HOME%\bin\jpackage" create-installer exe --input . --files fooclient.jar --main-jar fooclient.jar --class FooClient --output . --verbose
+"%JAVA_HOME%\bin\jpackage" create-installer --installer-type exe --input . --main-jar fooclient.jar --main-class FooClient --output . --verbose
