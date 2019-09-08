@@ -1,5 +1,5 @@
 SET JAVA_HOME=c:\Program Files\Java\jdk-14
-del *.class,*.jar,*.exe
+del *.class,*.jar,*.exe,*.msi
 
 "%JAVA_HOME%\bin\javac" FooClient.java
 "%JAVA_HOME%\bin\jar" cfe fooclient.jar FooClient FooClient.class
